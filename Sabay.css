@@ -1,0 +1,242 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.logo{
+    padding-left: 200px;
+}
+.menu{
+    background-color: red;
+    height: 50px;
+    
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: khmer os;
+    justify-content: center;
+    paa  
+}
+.menu li{
+    color: white;
+   font-size: 25px;
+}
+.content1{
+    margin-left: 100px;
+    display: flex;
+    background-color: aqua;
+    width:1200px;
+}
+.box1{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    position: relative;
+
+}
+.box2{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.box3{
+    background-color: rgb(255, 0, 72);
+    width: 300px;
+    height: 200px; 
+}
+.content2{
+    margin-left: 100px;
+    display: flex;
+    width: 1200px;
+    background-color: brown;
+}
+.box4{
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+.box5{
+    background-color: rgb(181, 255, 9);
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.box6{
+    background-color: rgb(0, 30, 255);
+    width: 300px;
+    height: 200px; 
+    position: relative;
+}
+.box1 img{
+    width: 500px;
+    height: 200px;
+    
+}
+.box2 img{
+    width: 400px;
+    height: 200px;
+}
+.box3 img{
+    width: 300px;
+    height: 200px;
+}
+.box4 img{
+    width: 500px;
+    height: 200px;
+}
+.box5 img{
+    width: 400px;
+    height: 200px;
+}
+.box6 img{
+    width: 300px;
+    height: 200px;
+}
+.box1 .text1{ 
+    font: 30px;
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+.box1 .text1:hover{
+    height: 80%;
+    transition: all 0.9s;
+    color: red;
+}
+.box1 .date1{
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.box2 .text2{ 
+
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+.box2 .text2:hover{
+    height: 80%;
+    transition: all 0.9s;
+    color: red;
+}
+.box2 .date2{
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.box4 .text4{ 
+    font: 25px;
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+.box4 .text4:hover{
+    height: 80%;
+    transition: all 0.9s;
+    color: red;
+}
+.box4 .date4{
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.box5 .text5{ 
+    font: 25px;
+    position: absolute;
+    bottom: 0;
+    height: 90px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+.box5 .text5:hover{
+    height: 80%;
+    transition: all 0.9s;
+    color: red;
+}
+.box5 .date5{
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.clippy{
+    clip-path: polygon(0 0, 75% 1%, 100% 100%, 0% 100%);
+    padding: 2px;
+    width: 50px;
+    height: 20px;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 160px;
+}
+.clippy p{
+    color: white;
+    margin: auto;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+}
+.bottom .text1{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.472);
+}
+.bottom .text1_hover:hover{
+    color: white;
+}
+.bottom .text2{
+    padding-left: 150px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.472);
+}
+.bottom span:hover{
+    color: white;
+}
+.bottom .text2 img{
+    width: 40px;
+}
+.bottom .text3{
+    padding-left: 150px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.472);
+}
+.bottom .text3 i:hover{
+    color: white;
+}

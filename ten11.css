@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.bar{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+    background-color: white;
+}
+.bar i{
+    cursor: pointer;
+}
+.logo{
+    padding-left: 200px;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    height: 80%
+}
+.login{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  body img{
+    width: 100%;
+    height: 80%;
+  }
+  .btn{
+    padding-right: 200px;
+    width: 500px;
+    height: 70%;
+    position: absolute;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 40%;
+    top: 300px;
+  }
+  .btn button{
+    width: 200px;
+    height: 70px;  
+    background-color: white;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  .btn:hover{
+   transform: translate(0, 20px);
+  }
+  .body2{
+    width: 100%;
+    height: 60%;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .body2 .left{
+    width: 50%;
+    height: 100%;
+    margin-top: 1%;
+    padding-left: 20px;
+  }
+  .body2 .right{
+    width: 50%;
+    height: 100%;
+    margin-top: 1%;
+    padding-right: 20px;
+  }
+  .body2 .button{
+    justify-content: center;
+    align-items: center;
+  }
+  .collect{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 10px;
+  }
+  .collect .c1{
+    width: 40%;
+    height: 100%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  .collect .c2{
+    width: 40%;
+    height: 100%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  .highlight{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    padding-left: 50px;
+  }
+  .line1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .pic1{
+    font-size: 20px;
+  }
+  .pic1 .detail1{
+    display: flex;
+  }
+  .pic1 .detail1 .i{
+    align-items: end;
+  }
+  .pic2{
+    font-size: 20px;
+  }
+  .pic2 .detail2{
+    display: flex;
+  }
+  .pic2 .detail2 .i{
+    align-items: end;
+  }
+  .pic3{
+    font-size: 20px;
+  }
+  .pic3 .detail3{
+    display: flex;
+  }
+  .pic3 .detail3 .i{
+    align-items: end;
+  }
+  .pic4{
+    font-size: 20px;
+  }
+  .pic4 .detail4{
+    display: flex;
+  }
+  .pic4 .detail4 .i{
+    align-items: end;
+  }
+  .line2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f1a43;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .footer h1 {
+    color: #ffffff;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
